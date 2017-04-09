@@ -1,6 +1,9 @@
-export default class contentScript{
-    constructor(){
+import * as $ from 'jquery';
 
-    }
+export default class contentScript{
     
+    constructor(){
+        
+    }
+
 }

@@ -3,6 +3,7 @@
         "target": "es5",
         "outDir": "dist",
         "module": "commonjs",
+        "lib": ["dom", "es6"],
         "sourceMap": true,
         "experimentalDecorators": true,
         "allowJs": true
