@@ -1,14 +1,16 @@
 const webpack =  require('webpack');
 const path = require('path');
+const copy = require('copy-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 module.exports= {
-    entry:[
-        path.resolve(__dirname+'/src','main.ts')
-    ],
+    entry:{
+        contentScript: path.resolve(__dirname+'/src/content','contentScript.ts'),
+        backgroundScript:path.resolve(__dirname+'/src/background','main.ts')
+    },
     target:'web',
     output:{
         path:__dirname + '/dist',
-        filename:'main.js'
+        filename:'[name].js'
     },
     module:{
         rules:[
@@ -28,6 +30,9 @@ module.exports= {
     },
     devtool:'inline-source-map',
     plugins: [
-    new UglifyJSPlugin()
+    new UglifyJSPlugin(),
+    new copy([
+        {from:'src/manifest.json'}
+    ])
   ]
 };

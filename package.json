@@ -2,13 +2,13 @@
   "name": "onboard",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/main.js",
   "scripts": {
     "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
     "source-map-loader": "^0.2.1",
     "ts-loader": "^2.0.3",
     "typescript": "^2.3.0-dev.20170407",

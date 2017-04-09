@@ -6,10 +6,14 @@
         "lib": ["dom", "es6"],
         "sourceMap": true,
         "experimentalDecorators": true,
-        "allowJs": true
+        "allowJs": true,
+        "types": [
+            "chrome"
+        ]
     },
     "files": [
-        "src/main.ts"
+        "src/background/backgroundScript.ts",
+        "src/content/contentScript.ts"
     ],
     "exclude": [
         "node_modules"
