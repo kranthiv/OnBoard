@@ -1,20 +1,12 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "outDir": "dist",
         "module": "commonjs",
         "lib": ["dom", "es6"],
         "sourceMap": true,
         "experimentalDecorators": true,
-        "allowJs": true,
-        "types": [
-            "chrome"
-        ]
+        "allowJs": true
     },
-    "files": [
-        "src/background/backgroundScript.ts",
-        "src/content/contentScript.ts"
-    ],
     "exclude": [
         "node_modules"
     ]
