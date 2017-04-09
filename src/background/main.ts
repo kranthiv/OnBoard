@@ -1,5 +1,4 @@
-import * as $ from 'jquery';
 import backgroundScript from './backgroundScript';
-$(document).ready(() => {
+window.onload =  () => {
     let x = new backgroundScript();
-});
+};
