@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/pouchdb": "^5.4.28",
     "copy-webpack-plugin": "^4.0.1",
     "source-map-loader": "^0.2.1",
     "ts-loader": "^2.0.3",
@@ -18,6 +19,7 @@
   "dependencies": {
     "@types/chrome": "0.0.44",
     "@types/jquery": "^2.0.41",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "pouchdb": "^6.1.2"
   }
 }
