@@ -13,7 +13,8 @@
     "content_scripts":[
         {
            "matches": [
-        "<all_urls>"
+        "https://*/*",
+        "http://*/*"
       ],
       "run_at":"document_idle",
       "js": ["contentScript.js"] 

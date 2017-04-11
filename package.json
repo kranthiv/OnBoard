@@ -10,15 +10,22 @@
   "devDependencies": {
     "@types/pouchdb": "^5.4.28",
     "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
     "source-map-loader": "^0.2.1",
+    "style-loader": "^0.16.1",
     "ts-loader": "^2.0.3",
     "typescript": "^2.3.0-dev.20170407",
     "uglifyjs-webpack-plugin": "^0.4.1",
+    "url-loader": "^0.5.8",
     "webpack": "^2.3.3"
   },
   "dependencies": {
     "@types/chrome": "0.0.44",
     "@types/jquery": "^2.0.41",
+    "bootstrap": "^4.0.0-alpha.6",
     "jquery": "^3.2.1",
     "pouchdb": "^6.1.2"
   }

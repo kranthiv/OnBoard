@@ -6,6 +6,7 @@ export default class backgroundScript {
             let id = chrome.contextMenus.create(element);
         });
     }
+    
     private CreateMenus() {
         this.menuItems.push({
             'contexts': ["selection"],
